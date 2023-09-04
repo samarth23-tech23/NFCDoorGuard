@@ -11,45 +11,39 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NFCConnect">
-
+        <activity
+            android:name=".dashboard"
+            android:exported="true" />
         <activity
             android:name=".LogActivity"
             android:exported="false" />
-
         <activity
             android:name=".reset"
             android:exported="false" />
-
         <activity
             android:name=".contactUs"
             android:exported="false" />
-
         <activity
             android:name=".AboutUs"
             android:exported="false"
             android:label="About Us"
             android:parentActivityName=".MainActivity" />
-
         <activity
             android:name=".regActivity"
             android:exported="false" />
-
         <activity
             android:name=".Homepage"
             android:exported="false" />
-
         <activity
             android:name=".RegisterActivity"
             android:exported="false"
             android:label="Register"
             android:parentActivityName=".MainActivity" />
-
         <activity
             android:name=".loginActivity"
             android:exported="false"
             android:label="Login"
             android:parentActivityName=".MainActivity" />
-
         <activity
             android:name=".MainActivity"
             android:exported="true">
